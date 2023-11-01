@@ -1,0 +1,30 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+.red{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+}
+#aqua{
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
+.green{
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+p{
+    font-size: 3rem;
+}

@@ -1,0 +1,19 @@
+.size100{
+    width: 100px;
+    height: 100px;
+}
+.bg-lime{
+    background-color: lime;
+    transition: 2s;
+}
+.bg-lime:hover{
+    background-color: darkred;
+    transition: 2s;
+    border-radius: 50%;
+}
+.main{
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
