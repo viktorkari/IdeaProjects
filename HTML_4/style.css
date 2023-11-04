@@ -1,0 +1,66 @@
+body{
+    background-color: darkcyan;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:'Raleway', sans-serif;
+}
+header{
+    width: 40vw;
+    height: 5vw;
+    background-color: #b2b1b1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 400px 0 400px;
+    border-style: outset;
+    border-radius: 10px 10px 0 0  ;
+
+}
+div{
+    width: 40vw;
+    height: 40vh;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    margin: 0 400px ;
+    border-style: outset;
+    border-radius: 0 0 10px 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+input{
+    display: flex;
+    border-style: inherit;
+    width: 35vw;
+    height: 5vh;
+    margin-top: 20px;
+    background-color: #bce0e0;
+}
+.box{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 390px;
+    margin-top: -40px;
+}
+.box2 {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+/*.box2:checked{*/
+    /*background: url("<img width="64" height="64" src="https://img.icons8.com/nolan/64/ok.png" alt="ok"/>");*/
+/*}*/
+
+p{
+    display: block;
+    margin-top: -20px;
+}
+
