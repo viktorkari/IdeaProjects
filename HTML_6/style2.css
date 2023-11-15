@@ -1,0 +1,18 @@
+@media screen  and (max-width: 500px){
+    header{
+        width: 100vw;
+        height: 20vh;
+    }
+    .b{
+        width: 100vw;
+        height: 60vh;
+    }
+    .c{
+        width: 100vw;
+        height: 20vh;
+    }
+    .flex{
+        flex-direction: column;
+    }
+
+}

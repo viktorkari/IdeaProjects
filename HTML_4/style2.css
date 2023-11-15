@@ -17,6 +17,8 @@ body{
     height: 20vh;
     margin-left: 10px;
     margin-top: 30px;
+
+
 }
 input[type=email], input[type=password]{
     width: 25vw;
@@ -49,6 +51,10 @@ input[type=submit]{
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow:0 0 3px 3px blue;
+
+
+
 }
 .box span{
     color: #008ff4;

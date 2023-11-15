@@ -1,0 +1,34 @@
+body{
+    background-color: #98f997;
+}
+h1 {
+    font-size: 70px;
+    color: red;
+    margin-left: 300px;
+    margin-top: 0;
+}
+label{
+    display: block;
+}
+input[type=email]{
+    margin-top: -83.5px;
+    margin-left: 90px;
+    width: 30vw;
+    height: 4vh;
+}
+input[type=text] {
+    margin-left: 136px;
+    margin-top: -34px;
+    width: 30vw;
+    height: 4vh;
+}
+
+
+form{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+

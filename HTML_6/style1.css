@@ -1,0 +1,32 @@
+body{
+    margin:0;
+
+}
+header{
+    width: 99vw;
+    height: 35vh;
+    background-color: green;
+}
+.b{
+    width: 72vw;
+    height: 61vh;
+    background-color: darkblue;
+}
+.c {
+    width: 26.4vw;
+    height: 61vh;
+    background-color: red;
+}
+header, .b,.c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin: 5px 5px;
+
+}
+
+.flex{
+    display: flex;
+}
+
