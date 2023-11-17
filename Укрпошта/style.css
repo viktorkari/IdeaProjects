@@ -62,7 +62,7 @@ input[type="text"]{
     text-indent: 8%;
     border-radius: 12px;
     border-style: none;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.03vw;
     font-size: 16px;
     color: dimgray;
 }
@@ -126,7 +126,7 @@ input[type="text"]{
     margin-left: 101px;
     line-height: 8px;
     font-size: 18px;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     color: #0e2f4b;
 }
 .line {
@@ -204,7 +204,7 @@ input[type="text"]{
     line-height: 0.7;
     font-size: 18px;
     color: #99A2AA;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
 }
 input[type=submit] {
     display: block;
@@ -261,9 +261,11 @@ input[type=submit] {
     display: block;
     padding-top: 30px;
     margin-left: 113px;
-    font-size: 15.6px;
+    font-size: 1.25vw;
     letter-spacing: -0.5px;
     color: #0e2f4b;
+    font-family: 'Open Sans', sans-serif;
+
 }
 .element .g{
     display: block;
@@ -334,10 +336,10 @@ input[type=submit] {
 .box12 p {
     margin-top: -10px;
     margin-left: -10px;
-    letter-spacing: 0.1px;
+    letter-spacing: 0.05vw;
     color: #99A2AA;
-    font-family: Open Sans;
-    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
     line-height: 30px;
 }
 #number5 {
@@ -348,7 +350,7 @@ input[type=submit] {
     text-indent: 6%;
     border-radius: 12px;
     border-style: none;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.03vw;
     font-size: 16px;
     color: dimgray;
 }
