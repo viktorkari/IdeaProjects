@@ -102,9 +102,14 @@ console.log(user1_password,user2_password,user3_password,user4_password,
 
 
 let x = 5;
-if (x !== 0){
+if (x !== 0) {
     console.log(true)
 }
+else{
+    console.log(false)
+}
+
+
 
 
 let time = 30;
