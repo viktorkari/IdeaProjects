@@ -39,7 +39,7 @@ let b = "100";
 let c = true;
 console.log(typeof a, b, c );
 /*-------------prompt`on----------*/
-let age=prompt('Скількі вам років?',39);
+let age=+prompt('Скількі вам років?',39);
 alert(`Вам ${age} лет!`);
 let firstname=prompt('Ваше імя?' ,"Віктор");
 alert(`Ваше ${firstname} імя!`);
