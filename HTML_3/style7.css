@@ -1,25 +1,28 @@
-body{
+body {
     margin: 0;
 }
 
-.box{
+.box {
     width: 100vw;
     height: 50vh;
     background-color: #d79595;
 }
-.box2{
+
+.box2 {
     width: 100vw;
     height: 50vh;
     background-color: #151515;
     color: #D9D9D9;
 }
-div{
+
+div {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-p{
+
+p {
     width: 60%;
     font-size: 20px;
     text-align: center;

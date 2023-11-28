@@ -1,60 +1,70 @@
-body,header{
-    margin:0;
+body, header {
+    margin: 0;
 }
-     /*------------Img----------*/
-.img0{
-    margin:30px 0 0 98px;
-    transform:rotate3d(0,0,0,0deg);
+
+/*------------Img----------*/
+.img0 {
+    margin: 30px 0 0 98px;
+    transform: rotate3d(0, 0, 0, 0deg);
     transition: transform 1s ease;
 }
+
 .img0:hover {
     perspective: 100px;
-    transform: rotate3d(3,4,0,20deg);
+    transform: rotate3d(3, 4, 0, 20deg);
 }
-        /*---------------End Img-----------*/
-header{
+
+/*---------------End Img-----------*/
+header {
     width: 98vw;
     height: 10vh;
     display: flex;
     align-items: flex-end;
 
 }
-header a{
+
+header a {
     text-decoration: none;
     color: #99A2AA;
     margin-left: 20px;
     font-size: 17px;
     font-family: 'Rubik', sans-serif;
 }
-       /*---------Title------------*/
-nav{
+
+/*---------Title------------*/
+nav {
     margin: 0 0 20px 82px
 }
-.flex{
+
+.flex {
     display: flex;
     flex-direction: column;
 }
-         /*------------Yellow---------*/
-.section1{
+
+/*------------Yellow---------*/
+.section1 {
     width: 99vw;
     height: 68vh;
     background-color: #fcc424;
 }
-.section1 h1{
+
+.section1 h1 {
     margin: 30px 0 0 98px;
     color: white;
     line-height: 1.3;
     font-size: 45px;
     font-family: 'Rubik', sans-serif;
 }
-.w{
-    margin: 35px 0 0 102px ;
+
+.w {
+    margin: 35px 0 0 102px;
     font-size: 16px;
     color: #0e2f4b;
     font-family: 'Rubik', sans-serif;
 
 }
-input[type="text"]{
+
+input[type="text"] {
     display: flex;
     width: 40vw;
     height: 12vh;
@@ -66,12 +76,13 @@ input[type="text"]{
     font-size: 16px;
     color: dimgray;
 }
-#post{
+
+#post {
     width: 10vw;
     height: 4vh;
     background-color: white;
-    color:  #0e2f4b;
-    margin-top: -50px ;
+    color: #0e2f4b;
+    margin-top: -50px;
     margin-left: 500px;
 }
 
@@ -81,6 +92,7 @@ input[type="text"]{
     background-color: #f2f2f2;
 
 }
+
 .box {
     display: flex;
     cursor: pointer;
@@ -89,8 +101,9 @@ input[type="text"]{
     margin-left: 48px;
 
 }
-#number1, #number2, #number3, #number4{
-    display:block;
+
+#number1, #number2, #number3, #number4 {
+    display: block;
     width: 18vw;
     height: 12vh;
     border-radius: 12px;
@@ -103,24 +116,29 @@ input[type="text"]{
     font-size: 17px;
     color: rgb(152, 161, 169);
 }
-         /*------------White-----------*/
-.box2 .img{
+
+/*------------White-----------*/
+.box2 .img {
     margin-left: 138px;
     margin-top: -50px;
 
 }
-.box2 .img1{
+
+.box2 .img1 {
     margin-left: 445px;
     margin-top: -30px;
 }
-.box2 .img2{
-    margin-left: 735px ;
+
+.box2 .img2 {
+    margin-left: 735px;
     margin-top: -34.5px;
 }
-.box2 .img3{
+
+.box2 .img3 {
     margin-top: -35px;
     margin-left: 1033px;
 }
+
 .box2 p {
     display: block;
     margin-left: 101px;
@@ -129,11 +147,13 @@ input[type="text"]{
     font-family: 'Open Sans', sans-serif;
     color: #0e2f4b;
 }
+
 .line {
     display: block;
     margin-top: 36px;
 }
-.box2 .a{
+
+.box2 .a {
     display: block;
     margin-left: 101px;
     margin-top: 115px;
@@ -142,53 +162,64 @@ input[type="text"]{
     line-height: 1.2;
     color: #0e2f4b;
 }
-.box2.b{
+
+.box2.b {
     display: block;
     margin-top: 36px;
 
 }
-.box3,.box4,.box5{
+
+.box3, .box4, .box5 {
     margin-left: 600px;
     color: #0e2f4b;
     font-family: 'Rubik', sans-serif;
 
 }
-.box3{
+
+.box3 {
     margin-top: -308px;
 }
-.box4,.box5{
+
+.box4, .box5 {
     margin-top: 90px;
 }
 
-.box6,.box7,.box8{
+.box6, .box7, .box8 {
     margin-left: 1000px;
     color: #0e2f4b;
     font-family: 'Rubik', sans-serif;
 
 }
-.box6{
+
+.box6 {
     margin-top: -463px;
 }
-.box7{
+
+.box7 {
     margin-top: 91px;
 }
-.box8{
+
+.box8 {
     margin-top: 123px;
 }
-.c{
+
+.c {
     font-size: 25px;
     line-height: 30px;
 }
-.d{
+
+.d {
     line-height: 0;
 }
+
 /*------------Blue-------------*/
-.section3{
+.section3 {
     width: 99vw;
     height: 90vh;
     background-color: #042c4b;
 }
-.section3 .i{
+
+.section3 .i {
     display: block;
     margin-left: 101px;
     margin-top: 105px;
@@ -197,7 +228,8 @@ input[type="text"]{
     color: #fdfdfd;
     font-family: 'Rubik', sans-serif;
 }
-.section3 p{
+
+.section3 p {
     display: block;
     margin-top: 20px;
     margin-left: 101px;
@@ -206,6 +238,7 @@ input[type="text"]{
     color: #99A2AA;
     font-family: 'Open Sans', sans-serif;
 }
+
 input[type=submit] {
     display: block;
     width: 22vw;
@@ -220,23 +253,26 @@ input[type=submit] {
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
     color: #041f34;
-    box-shadow:0 0 2px 3px #eae6e6;
+    box-shadow: 0 0 2px 3px #eae6e6;
 }
+
 /*--------------Decor------------*/
-#click:hover{
+#click:hover {
     background-image: url("icon1.png");
     background-size: 244px 74px;
     background-color: #042c4b;
     box-shadow: none;
     font-size: 0;
 }
+
 /*--------------End Decor------------*/
 /*---------White2------------*/
-.section4{
+.section4 {
     width: 99vw;
     height: 140vh;
     background-color: #fdfdfd;
 }
+
 .element {
     width: 85vw;
     height: 35vh;
@@ -247,17 +283,20 @@ input[type=submit] {
     color: #0e2f4b;
     font-family: 'Rubik', sans-serif;
 }
-.element h2{
+
+.element h2 {
     padding-top: 45px;
     margin-left: 110px;
     font-size: 23px;
     color: #0e2f4b;
 }
-.element .img6{
+
+.element .img6 {
     margin-top: -76px;
     margin-left: 66px;
 }
-.element .f{
+
+.element .f {
     display: block;
     padding-top: 30px;
     margin-left: 113px;
@@ -267,65 +306,75 @@ input[type=submit] {
     font-family: 'Open Sans', sans-serif;
 
 }
-.element .g{
+
+.element .g {
     display: block;
     padding-top: -2px;
     margin-left: 113px;
     font-size: 18px;
     color: #0e2f4b;
 }
-.element .h{
+
+.element .h {
     display: block;
     padding-top: 130px;
     margin-left: 1px;
     font-size: 48px;
     color: #0e2f4b;
 }
-.box9{
+
+.box9 {
     color: #0e2f4b;
-    margin-top:260px ;
+    margin-top: 260px;
     margin-left: 130px;
     font-size: 17px;
     font-family: 'Rubik', sans-serif;
 }
-.box10{
+
+.box10 {
     color: #0e2f4b;
-    margin-top:-130px ;
+    margin-top: -130px;
     margin-left: 405px;
     font-size: 17px;
     font-family: 'Rubik', sans-serif;
 }
-.box11{
+
+.box11 {
     color: #0e2f4b;
-    margin-top:-115px ;
+    margin-top: -115px;
     margin-left: 700px;
     font-size: 17px;
     font-family: 'Rubik', sans-serif;
 }
-.line1{
+
+.line1 {
     font-size: 27px;
     line-height: 28px;
     font-family: 'Rubik', sans-serif;
 }
-.line2{
+
+.line2 {
     font-size: 25px;
     line-height: 1px;
     font-family: 'Rubik', sans-serif;
 }
+
 /*----------------Blue2--------------*/
-.section5{
+.section5 {
     width: 99vw;
     height: 90vh;
     background-color: #042c4b;
 }
-.box12{
-    display:block;
+
+.box12 {
+    display: block;
     width: 85vw;
     height: 50vh;
     margin-top: 130px;
     margin-left: 100px;
     background-color: #042c4b;
 }
+
 .box12 .v {
     padding-top: 10px;
     margin-left: -10px;
@@ -333,6 +382,7 @@ input[type=submit] {
     color: white;
     font-family: 'Rubik', sans-serif;
 }
+
 .box12 p {
     margin-top: -10px;
     margin-left: -10px;
@@ -342,6 +392,7 @@ input[type=submit] {
     font-size: 16px;
     line-height: 30px;
 }
+
 #number5 {
     display: flex;
     width: 37vw;
@@ -354,7 +405,8 @@ input[type=submit] {
     font-size: 16px;
     color: dimgray;
 }
-.click{
+
+.click {
     width: 18vw;
     height: 11.8vh;
     display: flex;
@@ -362,24 +414,29 @@ input[type=submit] {
     align-items: center;
     margin-top: -75px;
     margin-left: 510px;
-    background-color:  #fbc03d;
+    background-color: #fbc03d;
     border-radius: 12px;
-    box-shadow:0 0 2px 3px #eae6e6;
+    box-shadow: 0 0 2px 3px #eae6e6;
 }
-.click a{
+
+.click a {
     text-decoration: none;
     color: #042c4b;
     font-size: 21px;
     font-family: 'Rubik', sans-serif;
 }
-#post{
+
+#post {
     box-shadow: none;
 }
-#click{
-    box-shadow:0 0 2px 3px #eae6e6;
+
+#click {
+    box-shadow: 0 0 2px 3px #eae6e6;
 }
+
 /*-------------Decor---------------*/
 li {
     cursor: default;
 }
+
 /*-------------Ehd Decor--------*/

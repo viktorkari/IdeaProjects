@@ -37,53 +37,30 @@ let book = {
 console.log(book.authors[0])
 
 
+let users1 = [
+    {name: 'User 1', username: 'user1', password: 'password 1'},
+    {name: 'User 2', username: 'user2', password: 'password 2'},
+    {name: 'User 3', username: 'user3', password: 'password 3'},
+    {name: 'User 4', username: 'user4', password: 'password4'},
+    {name: 'User 5', username: 'user5', password: 'password5'},
+    {name: 'User 6', username: 'user6', password: 'password6'},
+    {name: 'User 7', username: 'user7', password: 'password7'},
+    {name: 'User 8', username: 'user8', password: 'password8'},
+    {name: 'User 9', username: 'user9', password: 'password9'},
+    {name: 'User 10', username: 'user10', password: 'password10'}
+]
+console.log(users1 [0].password);
+console.log(users1 [1].password);
+console.log(users1 [2].password);
+console.log(users1 [3].password);
+console.log(users1 [4].password);
+console.log(users1 [5].password);
+console.log(users1 [6].password);
+console.log(users1 [7].password);
+console.log(users1 [8].password);
+console.log(users1 [9].password);
 
 
-
-let users =[
-    user1_name = "max",
-    user1_username = "moll",
-    user1_password = 123,
-
-    user2_name = "max2",
-    user2_username = "moll2",
-    user2_password = 1235,
-
-    user3_name = "max3",
-    user3_username = "moll3",
-    user3_password = 1236,
-
-    user4_name = "max4",
-    user4_username = "moll4",
-    user4_password = 1237,
-
-    user5_name = "max5",
-    user5_username = "moll5",
-    user5_password = 1238,
-
-    user6_name = "max6",
-    user6_username = "moll6",
-    user6_password = 1239,
-
-    user7_name = "max7",
-    user7_username = "moll7",
-    user7_password = 12310,
-
-    user8_name = "max8",
-    user8_username = "moll8",
-    user8_password = 12311,
-
-    user9_name = "max9",
-    user9_username = "moll9",
-    user9_password = 12312,
-
-    user10_name = "max10",
-    user10_username = "moll10",
-    user10_password = 12313
- ]
-
-console.log(user1_password,user2_password,user3_password,user4_password,
-    user5_password,user6_password,user7_password,user8_password,user9_password,user10_password);
 
 
 
@@ -162,7 +139,6 @@ switch (dayNumber) {
         break;
     case 7:
         schedule = "Неділя: вихідний";
-
 }
 console.log(schedule)
 
@@ -179,7 +155,6 @@ else if (num2 > num1) {
 else {
     maxNumber = num1;
 }
-
 console.log("Максимальне число" + maxNumber);
 
 
@@ -192,9 +167,7 @@ console.log("Максимальне число" + maxNumber);
 
 
 let y = 0;
-
 y = y || "default";
-
 console.log(y);
 
 
@@ -213,14 +186,18 @@ let coursesAndDurationArray = [
     {title: 'Frontend', monthDuration: 4}
     ];
 
-for (let i = 0; i < coursesAndDurationArray.length; i++) {
-    if (coursesAndDurationArray[i].monthDuration > 5) {
-        console.log(coursesAndDurationArray[i].title + ": Супер");
-    }
-}
+// for (let i = 0; i < coursesAndDurationArray.length; i++) {
+//     if (coursesAndDurationArray[i].monthDuration > 5) {
+//         console.log(coursesAndDurationArray[i].title + ": Супер");
+//     }
+// }
 
-
-
+if(coursesAndDurationArray[0].monthDuration>=5){console.log("Super")}
+if(coursesAndDurationArray[1].monthDuration>=5){console.log("Super")}
+if(coursesAndDurationArray[2].monthDuration>=5){console.log("Super")}
+if(coursesAndDurationArray[3].monthDuration>=5){console.log("Super")}
+if(coursesAndDurationArray[4].monthDuration>=5){console.log("Super")}
+if(coursesAndDurationArray[5].monthDuration>=5){console.log("Super")}
 
 
 

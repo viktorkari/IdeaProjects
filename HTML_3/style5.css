@@ -1,36 +1,43 @@
-body{
+body {
     margin: 0;
 }
-.nav{
+
+.nav {
     width: 100vw;
     height: 15vh;
     background-color: #D9D9D9;
 }
-.section{
+
+.section {
     width: 33.33vw;
     height: 70vh;
     background-color: #A9A8A8;
 }
-.section1{
+
+.section1 {
     width: 33.33vw;
     height: 70vh;
     background-color: #817B7B;
 
 }
-.section2{
+
+.section2 {
     width: 33.33vw;
     height: 70vh;
     background-color: #544F4F;
 }
-.footer{
+
+.footer {
     width: 100vw;
     height: 15vh;
     background-color: #B8B3B3;
 }
-.box{
+
+.box {
     display: flex;
 }
-.box1{
+
+.box1 {
     display: flex;
     align-items: center;
     justify-content: center;
