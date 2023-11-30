@@ -159,4 +159,8 @@ for (let i = 0; i <users.length ; i++) {
     if(users[i].age>30)
         console.log(users[i])
 }
-
+// users.forEach(function(user) {
+//     if (user.status === true) {
+//         console.log(user);
+//     }
+// });
