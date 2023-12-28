@@ -153,7 +153,7 @@ for (let i = 0; i <users.length ; i++) {
 }
 for (let i = 0; i <users.length ; i++) {
     if(users[i].status===false)
-        console.log(users[i])
+        console.log(users[i]
 }
 for (let i = 0; i <users.length ; i++) {
     if(users[i].age>30)

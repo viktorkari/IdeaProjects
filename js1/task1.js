@@ -189,6 +189,10 @@ let coursesAndDurationArray = [
 // for (let i = 0; i < coursesAndDurationArray.length; i++) {
 //     if (coursesAndDurationArray[i].monthDuration > 5) {
 //         console.log(coursesAndDurationArray[i].title + ": Супер");
+
+
+
+
 //     }
 // }
 
@@ -198,6 +202,17 @@ if(coursesAndDurationArray[2].monthDuration>=5){console.log("Super")}
 if(coursesAndDurationArray[3].monthDuration>=5){console.log("Super")}
 if(coursesAndDurationArray[4].monthDuration>=5){console.log("Super")}
 if(coursesAndDurationArray[5].monthDuration>=5){console.log("Super")}
+
+
+
+
+
+let distances = [3, 20, 34, 56, 1];{
+    for (let i = 0; i < distances.length; i++) {
+        console.log(distances)
+    }
+}
+
 
 
 

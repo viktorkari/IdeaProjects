@@ -50,3 +50,21 @@ let mas2 =(array)=>[
     {age:30}
 ];
 console.log(mas2())
+
+
+
+function getMoneyRemaining (bankAccount, banknoteDenomination=100) {
+    return bankAccount % banknoteDenomination
+}
+console.log(getMoneyRemaining(1437, 20));
+console.log(getMoneyRemaining(1250, 50));
+console.log(getMoneyRemaining(534));
+
+
+function getInitials(name,lastName){
+    return name[0]+lastName[0]
+}
+let initials= getInitials("Alice", "Green")
+console.log(initials)
+let initial=getInitials( "Bob", "Smith")
+console.log(initial)
